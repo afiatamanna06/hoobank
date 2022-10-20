@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image"
-import Discount from "../../public/Discount.svg"
+
+import GetStarted from "./GetStarted"
 
 function Home() {
   return (
@@ -13,12 +13,15 @@ function Home() {
                 <div className="font-medium">1 Month</div>
                 Account
             </div>
-            <div className="flex flex-row items-center justify-between w-full">
+            <div className="flex flex-row items-start justify-between w-full">
               <h1 className="text-white md:text-7xl text-4xl font-poppins font-semibold">
               The Next
               <div className="bg-gradient-radial from-[#def9fa] via-[#bef3f5] via-[#9dedf0] via-[#7de7eb] via-[#5ce1e6] to-[#33bbcf] bg-clip-text text-transparent my-4">Generation</div>
               Payment Method.
               </h1>
+              <div className="sm:flex hidden">
+                <GetStarted />
+              </div>
             </div>
         </div>
     </section>
