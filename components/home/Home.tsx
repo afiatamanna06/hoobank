@@ -28,6 +28,9 @@ function Home() {
             </div>
         </div>
         <img src="/robot.png" className="flex-1 h-[30rem] w-[100%] md:h-[45rem]" alt="" />
+        <div className="flex lg:hidden w-full justify-center">
+          <GetStarted />
+        </div>
     </section>
   )
 }
