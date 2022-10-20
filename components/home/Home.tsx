@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image"
 import Discount from "../../public/Discount.svg"
 
@@ -6,7 +7,7 @@ function Home() {
     <section className={`flex flex-col md:flex-row px-4 md:px-10 py-20`}>
         <div className="flex flex-col gap-8">
             <div className="flex flex-row items-center md:w-[21rem] bg-gradient-to-tr from-[#272727] to-[#11101d] py-1 px-4 rounded-[10px] text-white gap-1">
-                <Image src={Discount} width="30rem" height="30rem" alt="" />
+                <img src="/Discount.svg" className="h-30 w-30" alt="" />
                 <div className="font-medium">20%</div>
                 Discount For
                 <div className="font-medium">1 Month</div>
