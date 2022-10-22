@@ -16,7 +16,7 @@ function Features() {
         </div>
         <div className="flex flex-col w-full flex-1 gap-6">
             {featuresData.map(({icon, title, content}) => (
-                <div key={title} className="flex flex-row p-2 md:p-6 rounded-[20px] gap-4">
+                <div key={title} className="flex flex-row p-4 md:p-6 rounded-[20px] gap-4 hover:bg-gradient-to-br from-[#164e63] to-[#11101d] cursor-pointer">
                     <div className="w-[3.7rem] h-[3.7rem] rounded-full bg-dimBlue p-3">{icon}</div>
                     <div className="flex flex-col text-white">
                         <h4 className="font-poppins font-semibold text-xl">{title}</h4>
