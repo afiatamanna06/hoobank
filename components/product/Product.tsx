@@ -1,0 +1,26 @@
+/* eslint-disable @next/next/no-img-element */
+
+function Product() {
+  return (
+    <section id="product" className="flex flex-col items-center md:py-20 py-20 gap-8 lg:gap-4 px-4 md:px-10">
+        <div className="flex flex-col items-center lg:flex-row gap-8 lg:gap-4">
+            <img src="/bill.png" className="object-cover flex-1 md:h-[70vh] md:w-[50vw]" alt="" />
+            <div className="flex flex-col w-full flex-1 gap-6">
+                <h1 className="flex flex-col text-white md:text-5xl text-2xl font-poppins font-semibold gap-2 md:gap-6">
+                    <div>Easily control your</div>
+                    <div>billing & invoicing</div>
+                </h1>
+                <div className="text-gray-400 font-poppins lg:max-w-[26rem]">
+                    Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+                </div>
+                <div className="flex gap-6">
+                    <img src="/apple.svg" className="w-[10rem] h-[5rem] cursor-pointer" alt="" />
+                    <img src="/google.svg" className="w-[10rem] h-[5rem] cursor-pointer" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Product

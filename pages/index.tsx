@@ -4,6 +4,7 @@ import Features from '../components/features/Features'
 import Intro from "../components/home/Home"
 import HomeStats from '../components/home/HomeStats'
 import NavigationBar from '../components/navigation/NavigationBar'
+import Product from '../components/product/Product'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
           <Intro />
           <HomeStats />
           <Features />
+          <Product />
         </div>
       </div>
     </div>
