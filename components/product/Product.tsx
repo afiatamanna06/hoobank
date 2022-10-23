@@ -6,7 +6,7 @@ function Product() {
   return (
     <section id="product" className="flex flex-col items-center md:py-20 py-20 gap-8 lg:gap-4 px-4 md:px-10">
         <div className="flex flex-col items-center lg:flex-row gap-8 lg:gap-4">
-            <img src="/bill.png" className="object-cover flex-1 md:h-[70vh] md:w-[50vw]" alt="" />
+            <img src="/bill.png" className="hidden lg:block object-cover flex-1 md:h-[70vh] md:w-[50vw]" alt="" />
             <div className="flex flex-col w-full flex-1 gap-6">
                 <h1 className="flex flex-col text-white md:text-5xl text-2xl font-poppins font-semibold gap-2 md:gap-6">
                     <div>Easily control your</div>
@@ -20,9 +20,9 @@ function Product() {
                     <img src="/google.svg" className="w-[10rem] h-[5rem] cursor-pointer" alt="" />
                 </div>
             </div>
+            <img src="/bill.png" className="lg:hidden object-cover flex-1 md:h-[75vh] md:w-[55vw]" alt="" />
         </div>
         <div className="flex flex-col items-center lg:flex-row gap-8 lg:gap-4">
-            <img src="/card.png" className="lg:hidden object-cover flex-1 md:h-[75vh] md:w-[55vw]" alt="" />
             <div className="flex flex-col w-full flex-1 gap-6">
                 <h1 className="flex flex-col text-white md:text-5xl text-2xl font-poppins font-semibold gap-2 md:gap-6">
                     <div>Find a better card deal</div>
@@ -33,7 +33,7 @@ function Product() {
                 </div>
                 <GetStartedButton />
             </div>
-            <img src="/card.png" className="hidden lg:block object-cover flex-1 md:h-[75vh] md:w-[55vw]" alt="" />
+            <img src="/card.png" className="object-cover flex-1 md:h-[75vh] md:w-[55vw]" alt="" />
         </div>
     </section>
   )
