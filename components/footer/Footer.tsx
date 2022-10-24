@@ -14,7 +14,7 @@ function Footer() {
             <div className="flex flex-col lg:flex-row w-full justify-between font-poppins font-normal gap-8 lg:gap-12">
                 {footerLinks.slice(0, 1).map(({title, links}) => (
                     <div key={title} className="flex flex-col gap-4">
-                        <p className="font-medium">{title}</p>
+                        <p className="font-medium text-lg">{title}</p>
                         {links.map(({name, link}) => (
                             <Link href={link} key={name} passHref>
                                 <p className="text-gray-400 hover:text-secondary cursor-pointer">{name}</p>
@@ -24,7 +24,7 @@ function Footer() {
                 ))}
                 {footerLinks.slice(1, 2).map(({title, links}) => (
                     <div key={title} className="flex flex-col gap-4">
-                        <p className="font-medium">{title}</p>
+                        <p className="font-medium text-lg">{title}</p>
                         {links.map(({name, link}) => (
                             <Link href={link} key={name} passHref>
                                 <p className="text-gray-400 hover:text-secondary cursor-pointer">{name}</p>
@@ -34,7 +34,7 @@ function Footer() {
                 ))}
                 {footerLinks.slice(2, 3).map(({title, links}) => (
                     <div key={title} className="flex flex-col gap-4">
-                        <p className="font-medium">{title}</p>
+                        <p className="font-medium text-lg">{title}</p>
                         {links.map(({name, link}) => (
                             <Link href={link} key={name} passHref>
                                 <p className="text-gray-400 hover:text-secondary cursor-pointer">{name}</p>
