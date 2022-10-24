@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Clients from '../components/clients/Clients'
 import Contact from '../components/contact/Contact'
 import Features from '../components/features/Features'
+import Footer from '../components/footer/Footer'
 import Intro from "../components/home/Home"
 import HomeStats from '../components/home/HomeStats'
 import NavigationBar from '../components/navigation/NavigationBar'
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
           <Product />
           <Clients />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
